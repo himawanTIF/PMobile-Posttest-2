@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Himawan032</string>
+    <string name="nama_posttest">Posttest 2 (Himawan Imtikhan A. - 1700018032)</string>
+    <string name="nim">1700018032</string>
+    <string name="praktikum">Praktikum 2 P.Mobile</string>
+    <string name="tahun">2017</string>
+    <string name="slot">Slot Kamis</string>
+    <string name="jam">13.30</string>
+    <string name="emot">:)</string>
+    <string name="belajar">Ini belajar Layout</string>
+</resources>

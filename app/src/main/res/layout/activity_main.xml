@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        android:background="#42b883"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:textColor="#e25822"
+        android:background="#43ab92"
+        android:text="@string/nama_posttest"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="#5c94bd"
+        android:textColor="#ffe7ad"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/praktikum"/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"
+        android:textColor="#6d0c74"
+        android:background="#ddf796"
+        android:text="@string/nim"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#7f78d2"
+        android:padding="15dp"
+        android:text="@string/tahun"
+        android:textAlignment="center"
+        android:textColor="#7c0a02"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_door"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#1a2849"
+            android:padding="15dp"
+            android:text="@string/slot"
+            android:textAlignment="center"
+            android:textColor="#f75f00"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ecf4f3"
+            android:padding="15dp"
+            android:text="@string/jam"
+            android:textAlignment="center"
+            android:textColor="#2a1a5e"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#fb0091"
+            android:padding="15dp"
+            android:text="@string/emot"
+            android:textAlignment="center"
+            android:textColor="#2c003e"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#230338"
+        android:padding="15dp"
+        android:text="@string/belajar"
+        android:textAlignment="center"
+        android:textColor="#ed5107" />
+
+</LinearLayout>
